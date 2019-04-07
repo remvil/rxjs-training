@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RXJS training</title>
+    <script src="https://unpkg.com/rxjs@6.4.0/bundles/rxjs.umd.min.js"></script>
+    <script>
+        console.log(rxjs);
+    </script>
+
+    <script>
+        const {
+            range
+        } = rxjs;
+        const {
+            map,
+            filter
+        } = rxjs.operators;
+
+        range(1, 200).pipe(
+            filter(x => x % 2 === 0),
+            map(x => x + x)
+        ).subscribe(x => console.log(x));
+    </script>
+</head>
+
+<body>
+    <h3>Print In browser console i the entire 'rxjs' Object</h3>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+    "name": "rxjs-training",
+    "version": "1.0.0",
+    "description": "first steps with rxjs",
+    "main": "index.js",
+    "dependencies": {
+        "rxjs": "^6.4.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/remvil/rxjs-training.git"
+    },
+    "author": "Remigio Vildacci",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/remvil/rxjs-training/issues"
+    },
+    "homepage": "https://github.com/remvil/rxjs-training#readme"
+}
